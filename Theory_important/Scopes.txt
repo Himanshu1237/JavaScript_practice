@@ -12,3 +12,6 @@ Function Scope
 Variables declared inside a function can only be used within that function. This is similar to local scope but specific to functions.
 
 Variables declared with let or const inside blocks like loops, if statements, etc., are limited to that block.
+
+Lexical Scope (Static Scope)
+The scope of a variable is determined by where it’s written in the code, not by how or when it’s called. Inner functions can access variables in their outer functions.
