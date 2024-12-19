@@ -1,0 +1,14 @@
+Scope in JavaScript determines where variables and functions can be accessed in your code. Think of it as a set of rules about where things live and who can see them.
+A variable declared inside a function can only be used within that function.
+A variable declared outside a function can be used anywhere.
+
+Global Scope
+Variables or functions declared outside any function or block have a global scope, meaning they can be accessed anywhere in the program.
+
+Local Scope
+Variables declared inside a block {} or a function are local to that block or function. They can only be used there.
+
+Function Scope
+Variables declared inside a function can only be used within that function. This is similar to local scope but specific to functions.
+
+Variables declared with let or const inside blocks like loops, if statements, etc., are limited to that block.
