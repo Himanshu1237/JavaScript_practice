@@ -18,3 +18,10 @@ function printNumbers() {
     }
 }
 printNumbers()
+console.log(typeof undefined)
+console.log(typeof null)
+console.log(typeof c)
+console.log(typeof 1)
+console.log(typeof true)
+console.log(typeof "Jimbro")
+console.log(typeof 'going to gym')
